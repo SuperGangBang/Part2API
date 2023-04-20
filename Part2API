@@ -1,0 +1,3 @@
+    def load_model(self, filename = 'model.pkl'):
+        with open(filename, 'rb') as file:
+            self.model = pickle.load(file)
